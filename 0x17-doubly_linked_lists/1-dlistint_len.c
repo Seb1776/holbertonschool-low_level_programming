@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_dlistint - Gives the number of elements in a list
+ * dlistint_len - Gives the number of elements in a list
  *
  * @h: Start of the given dll
  *
