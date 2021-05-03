@@ -15,4 +15,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Sebastian Toro** - [Seb1776](https://github.com/mauriciosierrac)
+* **Sebastian Toro** - [Seb1776](https://github.com/Seb1776)
