@@ -1,22 +1,21 @@
 #!/usr/bin/python3
-'''Perimeter Island Solution'''
+"""
+Perimeter Island Solution
+"""
 
 
 def iterate_island(grid, row, col, max_row, max_col):
     """Iterates throught the island checking for borders
 
-    Parameters
-    ----------
-    grid: bidimensional array
-        Grid that defines the island area
-    row: int
-        Current cell's row position
-    col: int
-        Current cell's col position
-    max_row: int
-        Grid's max row count
-    max_col: int
-        Grid's max col count
+    Args:
+        grid (bidimensional array): Grid that defines the island area
+        row (int): Current cell's row position
+        col (int): Current cell's col position
+        max_row (int): Grid's max row count
+        max_col (int):Grid's max col count
+
+    Returns:
+        int: Full perimeter of the island
     """
 
     if row < 0 or row is max_row or col < 0 or col == max_col:
@@ -55,10 +54,11 @@ def iterate_island(grid, row, col, max_row, max_col):
 def island_perimeter(grid):
     """Calculate the island perimeter and then return it
 
-    Parameters
-    ----------
-    grid : bidimensional array
-        Grid that defines the island area
+    Args:
+        grid (bidimensional array): Grid that defines the island area
+
+    Returns:
+        int: Island perimeter
     """
 
     len_row = len(grid)
