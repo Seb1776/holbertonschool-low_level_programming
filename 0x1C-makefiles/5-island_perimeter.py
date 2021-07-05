@@ -3,8 +3,7 @@
 
 
 def iterate_island(grid, row, col, max_row, max_col):
-    '''
-    Iterates throught the island checking for borders
+    '''Iterates throught the island checking for borders
     '''
 
     if row < 0 or row is max_row or col < 0 or col == max_col:
@@ -41,8 +40,7 @@ def iterate_island(grid, row, col, max_row, max_col):
 
 
 def island_perimeter(grid):
-    '''
-    Calculate the island perimeter and then return it
+    '''Calculate the island perimeter and then return it
     '''
     len_row = len(grid)
     len_col = len(grid[0])
