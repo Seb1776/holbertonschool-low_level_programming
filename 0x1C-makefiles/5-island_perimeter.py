@@ -3,8 +3,21 @@
 
 
 def iterate_island(grid, row, col, max_row, max_col):
-    '''Iterates throught the island checking for borders
-    '''
+    """Iterates throught the island checking for borders
+
+    Parameters
+    ----------
+    grid: bidimensional array
+        Grid that defines the island area
+    row: int
+        Current cell's row position
+    col: int
+        Current cell's col position
+    max_row: int
+        Grid's max row count
+    max_col: int
+        Grid's max col count
+    """
 
     if row < 0 or row is max_row or col < 0 or col == max_col:
         return 0
@@ -40,8 +53,14 @@ def iterate_island(grid, row, col, max_row, max_col):
 
 
 def island_perimeter(grid):
-    '''Calculate the island perimeter and then return it
-    '''
+    """Calculate the island perimeter and then return it
+
+    Parameters
+    ----------
+    grid : bidimensional array
+        Grid that defines the island area
+    """
+
     len_row = len(grid)
     len_col = len(grid[0])
     perimeter = 0
