@@ -1,4 +1,4 @@
-#include "header.h"
+#include "search_algos.h"
 
 /**
  * linear_search - Linear algorithm
